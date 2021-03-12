@@ -1,13 +1,13 @@
 #!/usr/bin/python
-i = 1
-while i <= 100:
-    if i % 3 == 0:
-        if i % 5 == 0:
+number = 1
+while number <= 100:
+    if number % 3 == 0:
+        if number % 5 == 0:
             print("FizzBuzz")
         else:
             print("Fizz")
-    elif i % 5 == 0:
+    elif number % 5 == 0:
         print("Buzz")
     else:
-        print(i)
-    i += 1
+        print(number)
+    number += 1
